@@ -1,0 +1,192 @@
+body
+{
+    background-color: rgb(83, 172, 231);
+    padding: 0px;
+    margin: 0px;
+    background-image: url("loginbkg5.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    /*background-size: cover;*/
+}
+
+
+.login-box
+{
+  
+    width: 320px;
+    height: 420px;
+   /** border-bottom: 1px solid rgb(136, 28, 28);**/
+   background: rgba(0,0,0,0.95);
+  color: #fff;
+  top:50%;
+  left:50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+    
+    margin: 0 auto;
+    text-align: center;
+    
+     /**distance from top**/
+  /**  margin-left: 40px;
+    margin-right: 60px;
+    margin-bottom: 70px;**/
+    
+    
+      
+      }
+  
+.login-box input{
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.login-box input[type="email"], input[type="password"]
+{
+  border:none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height:40px;
+  color:#fff;
+  font-size: 16px;
+}
+
+.login-box input[type="submit"]
+{
+  border:none;
+  outline: none;
+  height: 40px;
+  background: #1c8adb;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+.login-box input[type="submit"]:hover{
+  cursor: pointer;
+  background: #39dc79;
+  color:#000;
+
+}
+
+.login-box a{
+  text-decoration: none;
+  font-size: 14px;
+  color:#fff;
+}
+
+
+
+
+/*.paragraph
+{
+
+  color: aliceblue;
+  font-family: cursive;
+  text-align: center;
+  padding: 20px;
+}
+.userDetails
+{
+   width: 200px;
+   height: 29px;
+   padding: 2px;
+   margin-left: 20px;
+   padding-left: 5px; /**padding of written text**/
+    /**distance between 2 boxes**/
+
+
+
+
+.center
+{
+  
+  text-align: center;
+  
+}
+button
+{
+  margin-left: 20px;
+  margin-top: 30px;
+  padding: 10px;
+  width: 160px;
+  height: 40px;
+}
+
+
+  /* unvisited link */
+a:link {
+  color: red;
+}
+
+/* visited link */
+a:visited {
+  color: rgba(15, 15, 15, 0.986);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(211, 17, 17);
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  text-decoration-color: #fff;
+  background: rgba(0,0,0,0.6);
+}
+.contact
+{
+margin-left: 1000px;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+button{
+  
+    border-radius: 25px;
+    background: rgb(61, 20, 212);
+    padding: 20px; 
+    width: 150px;
+    height: 20px;
+    text-align: center;
+
+  }
+
+  .signup
+  {
+     text-align: center;
+     margin-top: 12px;
+  }
+  .signup2
+  {
+    text-align: center;
+    margin-top: 90px;
+
+  }
+

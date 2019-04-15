@@ -1,0 +1,103 @@
+body
+{
+    
+    background-color: rgb(83, 172, 231);
+    background-image: url("urbkg7.jpg");
+     background-repeat: no-repeat;
+     padding: 0px;
+     margin: 0px;
+     background-position: center;
+     background-size: cover;
+}
+
+.container
+{
+   /* background-color: rgb(200, 201, 219);*/
+    width: 565px;
+    height: 200px;
+   /** border-bottom: 1px solid rgb(136, 28, 28);**/
+   
+    
+
+    margin: 0 auto;
+   /* margin-top: 50px; /**distance from top**/
+  /**  margin-left: 40px;
+    margin-right: 60px;
+    margin-bottom: 70px;**/
+
+}
+
+.container form {
+    /* margin: 30px;*/
+     background-color: #ffffff;
+     border: 1px solid black;
+     background: rgba(245, 231, 153, 0.5);
+     /*text-align: center;*/
+     height: 500px;
+     margin-top:20px;
+     /*opacity: 0.3;
+     filter: alpha(opacity=30); /* For IE8 and earlier */
+   }
+
+.paragraph
+{
+  background: rgb(16, 73, 180)f;
+  color: rgb(1, 5, 8);
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+
+}
+
+   button
+{
+  
+    border-radius: 25px;
+    border-bottom: black; 
+    background: rgb(48, 147, 204);
+    padding: 20px; 
+    width: 200px;
+    height: 20px;
+    margin-top: 40px;
+    
+  }
+.reqid
+{
+    width:200px;
+    height:40px;
+    margin-top: 0px;
+    margin-left: 70px;
+}
+.qualification
+{
+    margin-left: 5px;
+    width:200px;
+    height:40px;
+    margin-top: 0px;
+    
+}
+.name
+{
+    width:410px;
+    height:40px;
+    margin-left: 70px;
+    margin-top: 20px; 
+    text-align: center;
+}
+.container input[type="checkbox"]
+{
+    margin-left: 70px;
+    margin-top:10px; 
+}
+
+.container input[type="text"]
+{
+    margin-left: 70px;
+    margin-top:20px; 
+    height:40px;
+    width: 410px; 
+}
+.p2
+{
+    margin-left: 70px;
+}
